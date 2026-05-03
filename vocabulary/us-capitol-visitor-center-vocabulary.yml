@@ -1,0 +1,155 @@
+vocabulary:
+  name: US Capitol Visitor Center Vocabulary
+  description: >-
+    Domain vocabulary for the US Capitol Visitor Center, covering tour programs,
+    visitor services, Capitol building areas, legislative branch concepts, and
+    educational resources available to visitors and students.
+  version: '1.0'
+  created: '2026-05-03'
+  modified: '2026-05-03'
+  tags:
+    - Federal Government
+    - Legislative Branch
+    - Tourism
+    - Education
+
+terms:
+  - term: Capitol Visitor Center (CVC)
+    abbreviation: CVC
+    definition: >-
+      The underground visitor facility beneath the East Front Plaza of the US
+      Capitol, serving as the main entrance point for visitors. Opened in 2008,
+      it provides orientation exhibits, dining, a gift shop, and serves as the
+      staging area for Capitol tours.
+
+  - term: Emancipation Hall
+    definition: >-
+      The main public gathering space in the Capitol Visitor Center, featuring
+      a replica of the Statue of Freedom and serving as the orientation and
+      exhibit space for visitors learning about the Capitol's history.
+
+  - term: Guided Tour
+    definition: >-
+      Free, professionally led tours of the US Capitol building offered Monday
+      through Saturday between 8:40 a.m. and 3:20 p.m. Tours last approximately
+      one hour and include the Rotunda, National Statuary Hall, and the Crypt.
+
+  - term: Specialty Tour
+    definition: >-
+      Themed tours covering specific aspects of the Capitol such as artwork,
+      architecture, history, or particular chambers. Available by advance
+      reservation through the CVC Office of Visitor Services.
+
+  - term: Virtual Capitol Tour
+    definition: >-
+      Live, virtual guided tours of the US Capitol conducted via video
+      conferencing, available for school groups and remote participants who
+      cannot visit in person.
+
+  - term: Congressional Tour
+    definition: >-
+      Tours arranged through the office of a visitor's congressional
+      representative or senator, providing access to areas not on the
+      standard public tour.
+
+  - term: Rotunda
+    definition: >-
+      The circular room beneath the Capitol dome, featuring historical paintings
+      and the Apotheosis of Washington fresco on the dome ceiling. A primary
+      stop on guided Capitol tours.
+
+  - term: National Statuary Hall
+    definition: >-
+      Originally the chamber of the US House of Representatives, now housing
+      statues donated by each state representing notable citizens. A key
+      stop on guided Capitol tours.
+
+  - term: The Crypt
+    definition: >-
+      The circular room directly below the Rotunda, originally intended as
+      George Washington's tomb. Features a compass stone marking the center
+      of the Capitol and busts of historical figures.
+
+  - term: Architect of the Capitol
+    abbreviation: AOC
+    definition: >-
+      The federal agency responsible for the maintenance and operation of
+      the Capitol complex, including the Capitol building, CVC, House and
+      Senate office buildings, and US Supreme Court. The CVC operates under
+      the Architect of the Capitol.
+
+  - term: Office of Visitor Services
+    definition: >-
+      The CVC office that coordinates tour reservations, group visits,
+      educational programs, and visitor accommodation. Contact number:
+      202-226-8000.
+
+  - term: Exhibition Gallery
+    definition: >-
+      Permanent and rotating exhibit spaces within the CVC presenting
+      artifacts, documents, and interactive displays about the history
+      of the Capitol and the legislative process.
+
+  - term: Tour Reservation
+    definition: >-
+      Advance booking for a Capitol tour, recommended but not required.
+      Available online at tours.visitthecapitol.gov or through congressional
+      offices. Same-day passes may be available.
+
+  - term: Legislative Branch
+    definition: >-
+      One of the three branches of the US federal government, comprising
+      the US Congress (Senate and House of Representatives). The Capitol
+      building is the seat of the legislative branch.
+
+  - term: Capitol Campus
+    definition: >-
+      The complex of buildings and grounds surrounding the US Capitol,
+      including the Capitol building, CVC, Library of Congress, Senate
+      and House office buildings, and Capitol grounds.
+
+  - term: Public Programs
+    definition: >-
+      Educational events, lectures, and special programs offered by the
+      CVC for general visitors, school groups, and community organizations
+      to learn about American democracy and Capitol history.
+
+facilities:
+  - name: Capitol Visitor Center
+    type: Underground Visitor Facility
+    address: "First St SE, Washington, DC 20004"
+    phone: "(202) 226-8000"
+    website: https://www.visitthecapitol.gov
+    hours: "Monday-Saturday 8:30 AM - 4:30 PM"
+    admission: Free
+
+  - name: Emancipation Hall
+    type: Exhibition and Gathering Space
+    description: Main public hall with orientation exhibits and Statue of Freedom replica
+
+  - name: CVC Gift Shop
+    type: Retail
+    website: https://shop.visitthecapitol.gov
+
+tour_types:
+  - name: Standard Guided Tour
+    duration: 60 minutes
+    cost: Free
+    reservation: Recommended
+    hours: "8:40 AM - 3:20 PM, Monday-Saturday"
+    stops:
+      - Rotunda
+      - National Statuary Hall
+      - The Crypt
+
+  - name: Specialty Tours
+    duration: Varies
+    cost: Free
+    reservation: Required
+    description: Themed tours on art, architecture, or specific historical topics
+
+  - name: Virtual Capitol Tour
+    duration: Varies
+    cost: Free
+    reservation: Required
+    description: Live virtual tours via video conferencing for remote participants
