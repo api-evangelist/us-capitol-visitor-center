@@ -25,6 +25,9 @@ modified: '2026-05-03'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/us-capitol-visitor-center/refs/heads/main/apis.yml
 specificationVersion: '0.19'
+common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/u-s-capitol-visitor-center
 apis:
   - aid: us-capitol-visitor-center:us-capitol-visitor-center
     name: US Capitol Visitor Center
