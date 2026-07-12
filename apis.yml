@@ -26,6 +26,8 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/us-capitol-visitor-center/refs/heads/main/apis.yml
 specificationVersion: '0.19'
 common:
+  - type: DomainSecurity
+    url: security/us-capitol-visitor-center-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/u-s-capitol-visitor-center
 apis:
