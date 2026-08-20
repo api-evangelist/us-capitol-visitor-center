@@ -27,6 +27,12 @@ position: Consumer
 access: 3rd-Party
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/us-capitol-visitor-center.png
 tags:
+  - Federal-Government
+  - Legislative Branch
+  - Tourism
+  - Education
+  - US Capitol
+tags_raw:
   - Federal Government
   - Legislative Branch
   - Tourism
@@ -53,6 +59,12 @@ apis:
       maintains digital resources for visitors and educators.
     humanURL: https://www.visitthecapitol.gov
     tags:
+      - Federal-Government
+      - Legislative Branch
+      - Tourism
+      - Education
+      - US Capitol
+    tags_raw:
       - Federal Government
       - Legislative Branch
       - Tourism
