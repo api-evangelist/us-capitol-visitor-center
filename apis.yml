@@ -51,11 +51,13 @@ tags_raw:
   - US Capitol
   - Federal-Government
 created: '2024-12-03'
-modified: '2026-05-03'
+modified: '2026-10-06'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/us-capitol-visitor-center/refs/heads/main/apis.yml
 specificationVersion: '0.23'
 common:
+  - url: https://www.visitthecapitol.gov/rss.xml
+    type: BlogRSS
   - type: DomainSecurity
     url: security/us-capitol-visitor-center-domain-security.yml
   - type: LinkedIn
